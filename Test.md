@@ -1,20 +1,20 @@
 1. What should I use when planning to write tests in the future?
 
-[ ] test.todo method
-[ ] using the it.toBeDefined method
-[ ] method test.toBeDone
-[ ] using the it.todo method
-[ ] using the it.future method
-[ ] using the it.toBe method
-[ ] test.skip method
+[ ] test.todo method  
+[ ] using the it.toBeDefined method  
+[ ] method test.toBeDone  
+[ ] using the it.todo method  
+[ ] using the it.future method  
+[ ] using the it.toBe method  
+[ ] test.skip method  
 [ ] afterAll method
 
 2. What mock objects are used in testing?
 
-[ ] mocks
-[ ] stubs
-[ ] interfaces
-[ ] spies
+[ ] mocks  
+[ ] stubs  
+[ ] interfaces  
+[ ] spies  
 [ ] fields
 
 3. Which type of mock objects is used to simulate a specified state?
