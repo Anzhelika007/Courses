@@ -12,13 +12,15 @@
 Software testing is the act of examining the artifacts and the behavior of the software under test by validation and verification.
 In simpler terms, think of software testing as a quality check for software.
 
-<details><summary> _Why testing is needed:_ </summary>
-  1. Quality Check. it’s about ensuring it works perfectly every time you use it.  
-  2. Happy Users. Remember the last time an app crashed on you? Annoying, right? Testing aims to prevent such frustrations.  
-  3. Saving Money. Finding and fixing software issues early on is more cost-effective. More about the cost implications of errors in our guide on common [software testing mistakes](https://testsigma.com/blog/common-software-testing-mistakes-beginners-make-how-to-avoid/) beginners make and how to avoid them.  
-  4. Staying Safe. You wouldn’t want software with security risks. Testing helps keep things safe and secure.  
-  5. Good Reputation. When things work smoothly, it builds trust. And trust is everything in the digital world.  
-  6. Staying Updated. To understand its current landscape and anticipate future challenges, staying updated with the latest trends is essential. Check out the [top software testing](https://testsigma.com/blog/top-software-testing-trends-to-look-out-for-in-2022/) trends to get a glimpse of what’s shaping the future of testing.  
+<details><summary>**Why testing is needed:**</summary>
+
+1. Quality Check. it’s about ensuring it works perfectly every time you use it.
+2. Happy Users. Remember the last time an app crashed on you? Annoying, right? Testing aims to prevent such frustrations.
+3. Saving Money. Finding and fixing software issues early on is more cost-effective. More about the cost implications of errors in our guide on common [software testing mistakes](https://testsigma.com/blog/common-software-testing-mistakes-beginners-make-how-to-avoid/) beginners make and how to avoid them.
+4. Staying Safe. You wouldn’t want software with security risks. Testing helps keep things safe and secure.
+5. Good Reputation. When things work smoothly, it builds trust. And trust is everything in the digital world.
+6. Staying Updated. To understand its current landscape and anticipate future challenges, staying updated with the latest trends is essential. Check out the [top software testing](https://testsigma.com/blog/top-software-testing-trends-to-look-out-for-in-2022/) trends to get a glimpse of what’s shaping the future of testing.
+
 </details>
 
 [Software testing strategy](https://testsigma.com/blog/software-testing-strategy/)
