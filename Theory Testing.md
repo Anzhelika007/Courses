@@ -27,19 +27,19 @@ In simpler terms, think of software testing as a quality check for software.
 
 #### Objectives of Software Testing
 
-1. Ensure Reliability: we test to ensure the software is dependable and won’t disappoint you when needed.
-2. Verify Functionality: we verify that every feature functions as intended.
-3. Identify Defects: testing helps spot and fix any issues or bugs in the software.
-4. Assess User Experience: user-friendly software interface ensures a delightful digital journey
-5. Maintain Quality Standards: the software has quality benchmarks it needs to meet.
+1. `Ensure Reliability:` we test to ensure the software is dependable and won’t disappoint you when needed.
+2. `Verify Functionality:` we verify that every feature functions as intended.
+3. `Identify Defects:` testing helps spot and fix any issues or bugs in the software.
+4. `Assess User Experience:` user-friendly software interface ensures a delightful digital journey
+5. `Maintain Quality Standards:` the software has quality benchmarks it needs to meet.
 
 #### Consequences of NOT performing Software Testing
 
-1. Frequent Breakdowns: Untested software can crash or freeze, disrupting your tasks and causing frustration.
-2. Security Risks: Without testing, the software might have vulnerabilities that hackers can exploit, putting your data at risk.
-3. Increased Costs: Addressing software problems after release can be costlier than catching them during testing.
-4. Poor User Experience: Untested software might have glitches or design flaws that make it hard to use.
-5. Damaged Reputation: Buggy software can harm a company’s reputation and user trust.
+1. `Frequent Breakdowns:` Untested software can crash or freeze, disrupting your tasks and causing frustration.
+2. `Security Risks:` Without testing, the software might have vulnerabilities that hackers can exploit, putting your data at risk.
+3. `Increased Costs:` Addressing software problems after release can be costlier than catching them during testing.
+4. `Poor User Experience:` Untested software might have glitches or design flaws that make it hard to use.
+5. `Damaged Reputation:` Buggy software can harm a company’s reputation and user trust.
 
 #### Steps of Software Testing
 
