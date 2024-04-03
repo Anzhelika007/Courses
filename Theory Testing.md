@@ -12,7 +12,7 @@
 Software testing is the act of examining the artifacts and the behavior of the software under test by validation and verification.
 In simpler terms, think of software testing as a quality check for software.
 
-<details><summary>`Why testing is needed:`</summary>
+<details><summary>**Why testing is needed:**</summary>
   1. Quality Check. it’s about ensuring it works perfectly every time you use it.  
   2. Happy Users. Remember the last time an app crashed on you? Annoying, right? Testing aims to prevent such frustrations.  
   3. Saving Money. Finding and fixing software issues early on is more cost-effective. More about the cost implications of errors in our guide on common [software testing mistakes](https://testsigma.com/blog/common-software-testing-mistakes-beginners-make-how-to-avoid/) beginners make and how to avoid them.  
