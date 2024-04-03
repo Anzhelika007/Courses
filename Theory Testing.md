@@ -53,7 +53,7 @@ The `ISO 29119` standard set by the International Organization for Standardizati
 
 Software testability is the ease with which a software application can be tested to identify defects.
 
-<details><summary>`Testability Determining Factors:`</summary>
+<details><summary>Testability Determining Factors:</summary>
 
 1. `Control:` How easily can testers control the software’s operating conditions?
 2. `Observability:` Can testers observe the outcomes of their tests?
