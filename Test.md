@@ -79,11 +79,11 @@
 
 11. Unit testing is also known as...
 
-[ ] Load testing  
-[ ] Integration testing  
-[x] Module testing  
-[ ] E2E testing  
-[ ] TDD
+- [ ] Load testing
+- [ ] Integration testing
+- [x] Module testing
+- [ ] E2E testing
+- [ ] TDD
 
 12. What types of testing exist?
 
