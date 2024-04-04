@@ -81,7 +81,7 @@
 
 [ ] Load testing  
 [ ] Integration testing  
-[ ] Module testing  
+[x] Module testing  
 [ ] E2E testing  
 [ ] TDD
 
