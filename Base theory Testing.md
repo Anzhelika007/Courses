@@ -2,12 +2,17 @@
 
 #### Useful resources
 
+[Theory](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/testing)
+
 1. [Software Testing Fundamentals](https://testsigma.com/blog/fundamentals-of-software-testing/)
 2. [The different types of software testing](https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing)
 3. [What Is Software Testing? All the Basics You Need to Know](https://www.testim.io/blog/software-testing-basics/)
 4. [Test-driven development (TDD) explained](https://circleci.com/blog/test-driven-development-tdd/)
-5. []()
-6. []()
+5. [JavaScript testing](https://blog.logrocket.com/javascript-testing-best-practices/)
+6. [JS Testing Tutorial](https://wanago.io/2018/08/27/testing-javascript-tutorial-types-of-tests-of-unit-testing-with-jest/)
+7. []()
+8. []()
+9. []()
 
 Software testing is the act of examining the artifacts and the behavior of the software under test by validation and verification.
 In simpler terms, think of software testing as a quality check for software.
