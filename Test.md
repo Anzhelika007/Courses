@@ -2,14 +2,14 @@ result - 85%
 
 1. What should I use when planning to write tests in the future?
 
-[x] test.todo method  
-[ ] using the it.toBeDefined method  
-[ ] method test.toBeDone  
-[x] using the it.todo method  
-[ ] using the it.future method  
-[ ] using the it.toBe method  
-[x] test.skip method  
-[ ] afterAll method
+- [x] test.todo method
+- [ ] using the it.toBeDefined method
+- [ ] method test.toBeDone
+- [x] using the it.todo method
+- [ ] using the it.future method
+- [ ] using the it.toBe method
+- [x] test.skip method
+- [ ] afterAll method
 
 2. What mock objects are used in testing?
 
