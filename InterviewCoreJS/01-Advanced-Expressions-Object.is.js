@@ -51,9 +51,9 @@ Object.is(foo, sameFoo); // true
 Object.is(0, -0); // false
 Object.is(+0, -0); // false
 Object.is(-0, -0); // true
-//!!!!!!!alert( +0 === -0 );        // true
+//!!!!!!!console.log( +0 === -0 );        // true
 
 // Case 3: NaN - отличие от строгого неравенства ===
 Object.is(NaN, 0 / 0); // true
 Object.is(NaN, Number.NaN); // true
-//!!!!!!!alert( NaN === NaN );         // false
+//!!!!!!!console.log( NaN === NaN );         // false
