@@ -136,9 +136,9 @@ Post-interview, the mentor is required to fill in a feedback form available unde
 - Working with the Date object.
 - Timezones and Internationalization in JavaScript (Intl).
 
-### 27 Design Patterns
+### 3 Design Patterns
 
-#### 28 Intermediate Knowledge
+#### 31 Intermediate Knowledge
 
 - Understanding and applying KISS, DRY, and YAGNI principles.
 
