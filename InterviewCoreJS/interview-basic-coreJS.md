@@ -8,7 +8,7 @@ The CoreJS Interview #1 is a crucial step in the Rolling Scopes School curriculu
 - **Mentor Restrictions**: Students cannot be interviewed by their current mentors.
 - **Open to All Students**: Even those without a mentor can register for the interview.
 - **Student's Responsibility**: Students must initiate contact with the interviewer, using details available on the RS APP.
-  - **Important Note**: Interviewers might have other commitments (vacations, business trips, heavy workloads). It's advised to contact them early.
+- **Important Note**: Interviewers might have other commitments (vacations, business trips, heavy workloads). It's advised to contact them early.
 - **Interview Format**: Can be conducted online or face-to-face, depending on the mentor's preference.
 - **Duration**: Ideally between 45 to 90 minutes.
 

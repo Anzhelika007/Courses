@@ -55,5 +55,9 @@ Var - нет, вот отличия:
 
 [link](https://medium.com/@kjschelling/a-beginners-guide-to-understanding-the-temporal-dead-zone-in-javascript-642ac3daa79b)
 
-- Concepts of Hoisting.
+- Concepts of Hoisting. the same
 - The role of polyfills.
+
+`Полифил` — это фрагмент кода (обычно JavaScript в Интернете), используемый для обеспечения современных функций в старых браузерах, которые не поддерживают его изначально.
+[link MDN](https://developer.mozilla.org/en-US/docs/Glossary/Polyfill)
+[learn.javascript](https://learn.javascript.ru/polyfills)
