@@ -56,3 +56,7 @@ let sayHi = function() {
 | Binding of `this`  |                Binds its own `this`                |              Binds its own `this`               |                                 Inherits `this`                                  |
 | `arguments`, `new` |                      There is                      |                    There is                     |                                   There is not                                   |
 | Use Cases          | General-purpose, can be<br>used before declaration | Assigning to variables,<br>passing as arguments | Short, concise functions,<br>especially in array methods or<br>as event handlers |
+
+У функций могут быть локальные переменные: т.е. объявленные в теле функции. Такие переменные видимы только внутри функции.
+У параметров могут быть значения по умолчанию: function sum(a = 1, b = 2) {...}.
+Функции всегда что-нибудь возвращают. Если нет оператора return, результатом будет undefined.
