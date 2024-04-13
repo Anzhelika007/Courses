@@ -29,9 +29,9 @@ showMessage(); //- вызов
 Синтаксис
 
 ```
-let sayHi = function() {
-  console.log( "Привет" );
-};
+let func = (arg1, arg2, ...argN) => expression;
+let sum = (a, b) => a + b;
+let double = n => n * 2;
 ```
 
 Поскольку создание функции происходит в контексте выражения присваивания (с правой стороны от =), это Function Expression.
@@ -39,9 +39,20 @@ let sayHi = function() {
 Здесь мы сразу присваиваем её переменной, так что смысл этих примеров кода один и тот же: "создать функцию и поместить её в переменную sayHi".
 приведённых выше примерах функция хранится в переменной sayHi
 
-| Aspect            |               Function Declarations                |              Function Expressions               |                                 Arrow Functions                                  |
-| ----------------- | :------------------------------------------------: | :---------------------------------------------: | :------------------------------------------------------------------------------: |
-| Syntax            |                 function name() {}                 |           const name = function() {}            |                              const name = () => {}                               |
-| Hoisting          |                      Hoisted                       |                   Not hoisted                   |                                   Not hoisted                                    |
-| Binding of `this` |                Binds its own `this`                |              Binds its own `this`               |                                 Inherits `this`                                  |
-| Use Cases         | General-purpose, can be<br>used before declaration | Assigning to variables,<br>passing as arguments | Short, concise functions,<br>especially in array methods or<br>as event handlers |
+#### Arrow functions
+
+Синтаксис
+
+```
+let sayHi = function() {
+  console.log( "Привет" );
+};
+```
+
+| Aspect             |               Function Declarations                |              Function Expressions               |                                 Arrow Functions                                  |
+| ------------------ | :------------------------------------------------: | :---------------------------------------------: | :------------------------------------------------------------------------------: |
+| Syntax             |                 function name() {}                 |           const name = function() {}            |                              const name = () => {}                               |
+| Hoisting           |                      Hoisted                       |                   Not hoisted                   |                                   Not hoisted                                    |
+| Binding of `this`  |                Binds its own `this`                |              Binds its own `this`               |                                 Inherits `this`                                  |
+| `arguments`, `new` |                      There is                      |                    There is                     |                                   There is not                                   |
+| Use Cases          | General-purpose, can be<br>used before declaration | Assigning to variables,<br>passing as arguments | Short, concise functions,<br>especially in array methods or<br>as event handlers |

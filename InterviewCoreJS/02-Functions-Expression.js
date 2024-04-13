@@ -7,4 +7,8 @@ let func = sayHi;    // (2) копируем мы скопировали её з
 func(); // Привет     // (3) вызываем копию (работает)! Теперь функция может вызываться как sayHi(), так и func().
 sayHi(); // Привет    //     эта тоже все ещё работает (почему бы и нет)
 
+const functionName = function() {
+  console.log(arguments[0]);
+};
 
+functionName(1,2);
