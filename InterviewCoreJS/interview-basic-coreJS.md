@@ -71,12 +71,12 @@ Post-interview, the mentor is required to fill in a feedback form available unde
 
 #### 07 ECMAScript Intermediate
 
-- Function default parameters.
-- Using spread operator for function arguments.
-- Comparing `arguments` and `rest parameters`.
-- Array concatenation with spread operator.
-- Destructuring assignments for variables and function arguments.
-- `for..of` loop (optional).
+- Function default parameters.+
+- Using spread operator for function arguments.+
+- Comparing `arguments` and `rest parameters`.+
+- Array concatenation with spread operator.+
+- Destructuring assignments for variables and function arguments.+
+- `for..of` loop (optional).+
 
 #### 08 Objects Built-in Methods
 
