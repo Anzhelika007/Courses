@@ -84,6 +84,7 @@ Post-interview, the mentor is required to fill in a feedback form available unde
 - Working with static Object methods.
 - Property flags and descriptors.
 - Creating iterable objects and using `Symbol.iterator` (optional).
+  [link](https://learn.javascript.ru/call-apply-decorators)
 
 #### 09 ECMAScript Data Types & Expressions
 
