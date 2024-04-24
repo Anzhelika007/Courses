@@ -11,7 +11,7 @@ const Field = () => {
 
 function Btn() {
   const text = 'Log in';
-  const logged = true;
+  const logged = false;
 
   return <button>{logged ? 'Enter' : text}</button>
 }
