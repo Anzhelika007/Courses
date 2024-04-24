@@ -1,4 +1,5 @@
 import './app.css';
+import '../search-panel/search-panel.css';
 import SearchPanel from '../search-panel/search-panel';
 import AppInfo from '../app-info/app-info';
 import AppFilter from '../app-filter/app-filter';
