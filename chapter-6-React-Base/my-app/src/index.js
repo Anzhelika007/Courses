@@ -8,7 +8,7 @@ import App from './App';
 const elem = React.createElement('h2', {className: 'greeting'}, 'Hello world!');
 
 const element = {
-  type: 'h1',
+  type: 'h2',
   props: {
     className: 'greeting',
     children: 'Привет, мир!'
