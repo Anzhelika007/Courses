@@ -16,4 +16,4 @@ SPA -
 `cd my-app`  
 `npm start`
 
-2. Install []
+2. Emmet for React
