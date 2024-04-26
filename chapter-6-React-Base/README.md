@@ -16,4 +16,6 @@ SPA -
 `cd my-app`  
 `npm start`
 
-2. Emmet for React
+2. Add Sass
+
+`npm i sass --save`
