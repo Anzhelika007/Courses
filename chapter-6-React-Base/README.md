@@ -19,3 +19,7 @@ SPA -
 2. Add Sass
 
 `npm i sass --save`
+
+3. [styled-components](https://styled-components.com/)
+
+`npm install styled-components`
