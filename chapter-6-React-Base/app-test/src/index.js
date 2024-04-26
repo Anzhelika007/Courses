@@ -3,8 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import styled from 'styled-components';
 import { Button } from './App';
+
+import BootstrapTest from './BootstrapTest';
+
+import styled from 'styled-components';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const BigButton = styled(Button)`
@@ -18,6 +23,7 @@ root.render(
   <React.StrictMode>
     <App />
     <BigButton as='a'>Отправить отчет</BigButton>
+    <BootstrapTest/>
   </React.StrictMode>
 );
 
