@@ -3,7 +3,7 @@ import {Container,Row,Col, Carousel, Button, Form} from 'react-bootstrap';
 
 const BootstrapTest = () => {
   return (
-    <Container>
+    <Container className='mt-5 mb-5'>
       <Row>
         <Col>
           <Form>
