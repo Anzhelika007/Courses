@@ -8,6 +8,15 @@ const EmpItem = styled.div`
   margin-bottom: 15px;
   border-radius: 5px;
   box-shadow: 5px 5px 10px rgba(0,0,0, .2);
+  a {
+    display: block;
+    margin: 10px 0 10px 0;
+    color: black;
+  }
+  input {
+    display: block;
+    margin-top: 10px;
+  }
 `;
 
 const Header = styled.h2`
