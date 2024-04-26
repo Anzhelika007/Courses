@@ -11,7 +11,7 @@ const EmpItem = styled.div`
   a {
     display: block;
     margin: 10px 0 10px 0;
-    color: black;
+    color: ${props => props.active ? 'orange' : 'black'};
   }
   input {
     display: block;
@@ -60,7 +60,7 @@ class WhoAmI extends Component {
     const {position, years} = this.state;
 
     return (
-      <EmpItem>
+      <EmpItem active>
         <Button onClick={this.nextYear} >{this.state.text}</Button>
         <Header>My name is {name}, surname - {surname}, 
             age - {years}, 
