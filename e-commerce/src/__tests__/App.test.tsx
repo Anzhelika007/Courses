@@ -14,6 +14,6 @@ describe('render', () => {
         <App />
       </BrowserRouter>
     );
-    screen.getByText('ASInc store');
+    screen.getByText('Обратный звонок');
   });
 });
