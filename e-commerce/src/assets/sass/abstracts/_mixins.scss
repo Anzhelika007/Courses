@@ -5,7 +5,7 @@
   line-height: $height;
 }
 
-@mixin btnBlue($width, $height) {
+@mixin btnBlue($width: 220px, $height: 50px) {
   @extend %font-base;
   @include font($size: 1.6rem, $height: 2.6rem, $weight: 500, $style: normal);
   color: $White;
@@ -13,4 +13,16 @@
   width: $width;
   height: $height;
   border: none;
+  cursor: pointer;
+}
+
+@mixin btnInherit($width: 220px, $height: 50px) {
+  @extend %font-base;
+  @include font($size: 1.6rem, $height: 2.6rem, $weight: 500, $style: normal);
+  color: $Black;
+  background: inherit;
+  width: $width;
+  height: $height;
+  border: 1px solid $Black;
+  cursor: pointer;
 }
