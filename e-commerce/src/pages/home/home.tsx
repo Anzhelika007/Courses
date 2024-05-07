@@ -1,7 +1,15 @@
-import './home.scss';
+import Slider from '../../components/slider/slider';
 
 function Home() {
-  return <h2 className="home">Home</h2>;
+  return (
+    <main className="main container">
+      <section className="slider__section">
+        <div className="wrapper">
+          <Slider />
+        </div>
+      </section>
+    </main>
+  );
 }
 
 export default Home;

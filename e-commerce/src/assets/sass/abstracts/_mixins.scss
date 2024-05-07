@@ -4,3 +4,13 @@
   font-weight: $weight;
   line-height: $height;
 }
+
+@mixin btnBlue($width, $height) {
+  @extend %font-base;
+  @include font($size: 1.6rem, $height: 2.6rem, $weight: 500, $style: normal);
+  color: $White;
+  background: $Blue;
+  width: $width;
+  height: $height;
+  border: none;
+}
