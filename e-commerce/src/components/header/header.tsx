@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Navigation from '../navigation/navigation';
 /* SVG */
 import Logo from '../../assets/img/icons/Logo-header.svg';
@@ -18,16 +19,28 @@ function Header() {
       </div>
       <div className="header__bottom wrapper">
         <div className="header__bottom-item">
-          <img className="header__bottom-logo" src={Logo} alt="logo" />
+          <Link to="/e-commerce">
+            <img className="header__bottom-logo" src={Logo} alt="logo" />
+          </Link>
           <Navigation />
         </div>
         <div className="header__bottom-item">
           <a className="header__bottom-tel" href="tel:+79665588499">
             +7 (966) 55 88 499
           </a>
-          <img className="header__bottom-icon" src={Favorite} alt="favorite" />
-          <img className="header__bottom-icon" src={Basket} alt="basket" />
-          <img className="header__bottom-icon" src={Profile} alt="profile" />
+          <Link to="/">
+            <img
+              className="header__bottom-icon"
+              src={Favorite}
+              alt="favorite"
+            />
+          </Link>
+          <Link to="/basket">
+            <img className="header__bottom-icon" src={Basket} alt="basket" />
+          </Link>
+          <Link to="/login">
+            <img className="header__bottom-icon" src={Profile} alt="profile" />
+          </Link>
         </div>
       </div>
     </header>
