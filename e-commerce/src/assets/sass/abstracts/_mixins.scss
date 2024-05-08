@@ -26,3 +26,11 @@
   border: 1px solid $Black;
   cursor: pointer;
 }
+
+@mixin inputTextEmain($width: 240px, $height: 50px) {
+  width: $White;
+  height: $height;
+  background: $Bg-input-text;
+  border: none;
+  padding: 16px 0 16px 12px;
+}
