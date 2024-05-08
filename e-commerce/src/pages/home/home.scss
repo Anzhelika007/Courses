@@ -75,3 +75,9 @@
     @include btnBlue();
   }
 }
+.popular-products {
+  padding: 100px 0 96px 0;
+  &-box {
+    position: relative;
+  }
+}

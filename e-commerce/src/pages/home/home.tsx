@@ -1,5 +1,6 @@
 import Slider from '../../components/slider/slider';
 import Category from '../../components/category/category';
+import SliderProduct from '../../components/sliderProducts/sliderProducts';
 /* SVG */
 import Reason from '../../assets/img/icons/product-return.svg';
 import Reason1 from '../../assets/img/icons/evaluate.svg';
@@ -74,6 +75,7 @@ function Home() {
       <section className="popular-products wrapper">
         <div className="popular-products-box">
           <h2 className="popular-products-title">Наши популярные продукты</h2>
+          <SliderProduct />
         </div>
       </section>
     </main>
