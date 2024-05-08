@@ -10,6 +10,9 @@
       flex-basis: 50%;
     }
   }
+  &__info-img {
+    background-color: $Bg-product-decription;
+  }
 
   &__text {
     @include font($size: 1.4rem, $height: 2.4rem, $weight: 400, $style: normal);

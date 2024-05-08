@@ -1,6 +1,6 @@
 .slider__section {
-  background: #00000005;
-  background-color: $Bg-base;
+  background-color: $Bg-product-decription;
+  mix-blend-mode: multiply;
   padding-bottom: 50px;
 }
 .number {
@@ -32,6 +32,7 @@
   gap: 56px;
   &-title {
     text-align: center;
+    padding-bottom: 45px;
   }
   &__reason {
     display: flex;
@@ -43,6 +44,7 @@
     flex-direction: column;
     align-items: center;
     gap: 32px;
+    box-shadow: $B-shadow-service;
   }
   &__reason-img {
     width: 82px;
