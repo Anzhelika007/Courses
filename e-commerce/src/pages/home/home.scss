@@ -80,4 +80,20 @@
   &-box {
     position: relative;
   }
+  &-title {
+    padding-bottom: 64px;
+  }
+}
+.call {
+  background: $Bg-section;
+  padding: 64px 0 56px;
+  &-box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+  &-text {
+    text-align: center;
+  }
 }
