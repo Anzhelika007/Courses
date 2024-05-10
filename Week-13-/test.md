@@ -3,7 +3,7 @@
 1. What does the browser's JavaScript interpreter do?
 
 -[ ] Renders images and videos  
--[ ] Executes JavaScript code  
+-[x] Executes JavaScript code  
 -[ ] Manages CSS animations.  
 -[ ] Sends emails automatically
 
@@ -207,7 +207,7 @@
 -[ ] It manages user sessions  
 -[ ] It helps in creating and managing tabs  
 -[ ] It optimizes HTML parsing  
--[ ] It deals with drawing basic widgets like combo boxes and windows
+-[x] It deals with drawing basic widgets like combo boxes and windows
 
 29. Which class in WebKit is responsible for laying out and painting elements?
 
