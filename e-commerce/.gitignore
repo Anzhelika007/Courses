@@ -16,10 +16,13 @@ dist-ssr
 .vscode/*
 !.vscode/extensions.json
 .idea
-.vite
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Our project
+.vite
+package-lock.json
