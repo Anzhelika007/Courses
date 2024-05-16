@@ -8,11 +8,6 @@ import mjolnir from '../../resources/img/mjolnir.png';
 
 
 class RandomChar extends Component {
-    constructor(props) {
-        super(props);
-        console.log('constructor');
-    }
-
     state = {
         char: {},
         loading: true,
@@ -23,18 +18,14 @@ class RandomChar extends Component {
 
     componentDidMount() {
         this.updateChar();
-        this.timerId = setInterval(this.updateChar, 3000);
-        console.log('Mount');
+        //this.timerId = setInterval(this.updateChar, 3000);
     }
 
     componentWillUnmount() {
         clearInterval(this.timerId)
-        console.log('WillUnmount');
-
     }
 
     onCharLoaded = (char) => {
-        console.log('update');
         this.setState({
             char,// {char:char}
             loading: false
@@ -57,7 +48,6 @@ class RandomChar extends Component {
     }
 
     render() {
-        console.log('render');
         const {char, loading, error} = this.state;
         const errorMessage = error ? <ErrorMessage/> : null;
         const spinner = loading ? <Spinner/> : null;
