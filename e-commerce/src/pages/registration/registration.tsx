@@ -1,4 +1,4 @@
-import RegistrationForm from '../../components/forms/registrationForm/registration';
+import RegistrationForm from '../../components/forms/registration/registration';
 
 function Registration() {
   return (

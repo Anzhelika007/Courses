@@ -133,7 +133,7 @@ const addressValidation = yup.object({
     ),
 });
 
-const addressFlagInvoiceValidation = yup.boolean();
+const addressForInvoice = yup.boolean();
 
 // LOGIN FORM VALID
 export const validationSchemaLogin = yup
@@ -152,8 +152,8 @@ export const validationSchemaRegister = yup
     lastName: lastNameValidation,
     dateOfBirth: dateOfBirthValidation,
     address: addressValidation,
-    addressFlagInvoiceValidation,
-    adressForInvoice: addressValidation,
+    addressInvoice: addressValidation,
+    addressForInvoice,
   })
   .required();
 
@@ -176,4 +176,4 @@ export const placeholder = {
 // TYPES
 export type FormDataLogin = yup.InferType<typeof validationSchemaLogin>;
 export type FormDataRegister = yup.InferType<typeof validationSchemaRegister>;
-export type FormDataCll = yup.InferType<typeof validationSchemaCall>;
+export type FormDataCall = yup.InferType<typeof validationSchemaCall>;
