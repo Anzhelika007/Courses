@@ -2,7 +2,7 @@
 
 ### AWS Lambda
 
-AWS Lambda(opens in a new tab) is a service that lets you run code without needing to provision or manage servers.
+AWS Lambda is a service that lets you run code without needing to provision or manage servers.
 
 While using AWS Lambda, you pay only for the compute time that you consume. Charges apply only when your code is running. You can also run code for virtually any type of application or backend service, all with zero administration.
 
