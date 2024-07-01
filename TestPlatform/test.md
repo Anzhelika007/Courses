@@ -251,23 +251,34 @@ Module 1: Introduction to Amazon Web Services.
 - [ ] Amazon DocumentDB
 - [ ] Amazon ElastiCache
 
-35.
+#### Module 6: Security
 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+35. Which tasks are the responsibilities of customers? (Select TWO.)
+
+- [ ] Maintaining network infrastructure
+- [x] Patching software on Amazon EC2 instances
+- [ ] Implementing physical security controls at data centers
+- [x] Setting permissions for Amazon S3 objects
+- [ ] Maintaining servers that run Amazon EC2 instances
+
+36. You are configuring service control policies (SCPs) in AWS Organizations. Which identities and resources can SCPs be applied to? (Select TWO.)
+
+- [ ] IAM users
+- [ ] IAM groups
+- [x] An individual member account
+- [ ] IAM roles
+- [x] An organizational unit (OU)
+
+37. Which tasks can you complete in AWS Artifact? (Select TWO.)
+
+- [x] Access AWS compliance reports on-demand.
+- [ ] Consolidate and manage multiple AWS accounts within a central location.
+- [ ] Create users to enable people and applications to interact with AWS services and resources.
+- [ ] Set permissions for accounts by configuring service control policies (SCPs).
+- [x] Review, accept, and manage agreements with AWS.
+
+38.
+
 - [ ]
 - [ ]
 - [ ]
