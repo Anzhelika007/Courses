@@ -398,37 +398,67 @@ Module 1: Introduction to Amazon Web Services.
 
 #### Module 9: Migration and innovation
 
-53.
+53. Which Perspective of the AWS Cloud Adoption Framework helps you design, implement, and optimize your AWS infrastructure based on your business goals and perspectives?
 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [ ] Business Perspective
+- [x] Platform Perspective
+- [ ] Operations Perspective
+- [ ] People Perspective
+
+54. Which migration strategy involves moving to a different product?
+
+- [ ] Refactoring
+- [ ] Retiring
+- [ ] Replatforming
+- [x] Repurchasing
+
+55. What is the storage capacity of Snowball Edge Storage Optimized?
+
+- [ ] 40 TB
+- [ ] 60 TB
+- [x] 80 TB
+- [ ] 100 TB
+
+56. Which service enables you to quickly build, train, and deploy machine learning models?
+
+- [ ] Amazon Textract
+- [ ] Amazon Lex
+- [ ] AWS DeepRacer
+- [x] Amazon SageMaker
+
+57. Which Perspective of the AWS Cloud Adoption Framework helps you structure the selection and implementation of permissions?
+
+- [ ] Governance Perspective
+- [x] Security Perspective
+- [ ] Operations Perspective
+- [ ] Business Perspective
+
+58. Which strategies are included in the six strategies for application migration? (Select TWO.)
+
+- [ ] Revisiting
+- [x] Retaining
+- [ ] Remembering
+- [ ] Redeveloping
+- [x] Rehosting
+
+59. What is the storage capacity of AWS Snowmobile?
+
+- [ ] 40 TB
+- [ ] 60 TB
+- [ ] 80 TB
+- [x] 100 TB
+
+60. Which statement best describes Amazon Lex?
+
+- [x] A service that enables you to build conversational interfaces using voice and text
+- [ ] A machine learning service that automatically extracts text and data from scanned documents
+- [ ] A document database service that supports MongoDB workloads
+- [ ] A service that enables you to identify potentially fraudulent online activities
+
+#### Module 10: The cloud journey
+
+61.
+
 - [ ]
 - [ ]
 - [ ]
