@@ -493,13 +493,13 @@ Module 1: Introduction to Amazon Web Services.
 
 - [ ] Amazon EC2 costs are billed on a monthly basis
 - [ ] Users retain full administrative access to their Amazon EC2 instances.
-- [ ] Amazon EC2 instances can be launched on demand when needed.
+- [x] Amazon EC2 instances can be launched on demand when needed.
 - [ ] Users can permanently run enough instances to handle peak workloads
 
 66. Which AWS service would simplify the migration of a database to AWS?
 
 - [ ] AWS Storage Gateway
-- [ ] AWS Database Migration Service (AWS DMS)
+- [x] AWS Database Migration Service (AWS DMS)
 - [ ] Amazon EC2
 - [ ] Amazon AppStream 2.0
 
@@ -509,19 +509,19 @@ Module 1: Introduction to Amazon Web Services.
 - [ ] AWS Config
 - [ ] AWS OpsWorks
 - [ ] AWS SDK
-- [ ] AWS Marketplace
+- [x] AWS Marketplace
 
 68. Which AWS networking service enables a company to create a virtual network within AWS?
 
 - [ ] AWS Config
 - [ ] Amazon Route 53
 - [ ] AWS Direct Connect
-- [ ] Amazon Virtual Private Cloud (Amazon VPC)
+- [x] Amazon Virtual Private Cloud (Amazon VPC)
 
 69. Which of the following is an AWS responsibility under the AWS shared responsibility model?
 
 - [ ] Configuring third-party applications
-- [ ] Maintaining physical hardware
+- [x] Maintaining physical hardware
 - [ ] Securing application access and data
 - [ ] Managing guest operating systems
 
@@ -529,7 +529,7 @@ Module 1: Introduction to Amazon Web Services.
     delivery?
 
 - [ ] AWS Regions
-- [ ] Edge locations
+- [x] Edge locations
 - [ ] Availability Zones
 - [ ] Virtual Private Cloud (VPC)
 
@@ -538,20 +538,20 @@ Module 1: Introduction to Amazon Web Services.
 
 - [ ] Use Amazon Cloud Directory
 - [ ] Audit AWS Identity and Access Management (IAM) roles
-- [ ] Enable multi-factor authentication
+- [x] Enable multi-factor authentication
 - [ ] Enable AWS CloudTrail
 
 72. Which service can identify the user that made the API call when an Amazon EC2 instance is
     terminated?
 
 - [ ] AWS Trusted Advisor
-- [ ] AWS CloudTrail
+- [x] AWS CloudTrail
 - [ ] AWS X-Ray
 - [ ] AWS Identity and Access Management (AWS IAM)
 
 73. Which service would be used to send alerts based on Amazon CloudWatch alarms?
 
-- [ ] Amazon Simple Notification Service (Amazon SNS)
+- [x] Amazon Simple Notification Service (Amazon SNS)
 - [ ] AWS CloudTrail
 - [ ] AWS Trusted Advisor
 - [ ] Amazon Route 53
@@ -560,5 +560,5 @@ Module 1: Introduction to Amazon Web Services.
 
 - [ ] AWS Trusted Advisor
 - [ ] AWS Identity and Access Management (IAM)
-- [ ] AWS Billing Console
+- [x] AWS Billing Console
 - [ ] AWS Acceptable Use Policy
