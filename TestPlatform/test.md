@@ -7,7 +7,7 @@ Module 1: Introduction to Amazon Web Services.
 - [ ] Running code without needing to manage or provision servers
 - [x] On-demand delivery of IT resources and applications through the internet with pay-as-you-go pricing
 
-Module 2: Compute in the cloud.
+#### Module 2: Compute in the cloud.
 
 2. Which Amazon EC2 instance type is suitable for data warehousing applications?
 
@@ -94,7 +94,7 @@ Module 2: Compute in the cloud.
 - [ ] Amazon Simple Queue Service (Amazon SQS)
 - [x] Amazon Elastic Kubernetes Service (Amazon EKS)
 
-Module 3: Global infrastructure and reliability.
+#### Module 3: Global infrastructure and reliability.
 
 14. Which statement best describes an Availability Zone?
 
@@ -139,8 +139,164 @@ Module 3: Global infrastructure and reliability.
 - [ ] Develop AWS applications in supported programming languages.
 - [x] Extend AWS infrastructure and services to different locations including your on-premises data center.
 
-20.
+#### Module 4: Networking
 
+20. Which statement best describes an AWS account’s default network access control list?
+
+- [ ] It is stateless and denies all inbound and outbound traffic.
+- [ ] It is stateful and allows all inbound and outbound traffic.
+- [x] It is stateless and allows all inbound and outbound traffic.
+- [ ] It is stateful and denies all inbound and outbound traffic.
+
+21. Which statement best describes DNS resolution?
+
+- [ ] Launching resources in a virtual network that you define
+- [ ] Storing local copies of content at edge locations around the world
+- [ ] Connecting a VPC to the internet
+- [x] Connecting a VPC to the internet
+
+22. Your company has an application that uses Amazon EC2 instances to run the customer-facing website and Amazon RDS database instances to store customers’ personal information. How should the developer configure the VPC according to best practices?
+
+- [ ] Place the Amazon EC2 instances in a private subnet and the Amazon RDS database instances in a public subnet.
+- [x] Place the Amazon EC2 instances in a public subnet and the Amazon RDS database instances in a private subnet.
+- [ ] Place the Amazon EC2 instances and the Amazon RDS database instances in a public subnet.
+- [ ] Place the Amazon EC2 instances and the Amazon RDS database instances in a private subnet.
+
+23. Which component can be used to establish a private dedicated connection between your company’s data center and AWS?
+
+- [ ] Private subnet
+- [ ] DNS
+- [x] AWS Direct Connect
+- [ ] Virtual private gateway
+
+24. Which statement best describes security groups?
+
+- [x] They are stateful and deny all inbound traffic by default.
+- [ ] They are stateful and allow all inbound traffic by default.
+- [ ] They are stateless and deny all inbound traffic by default.
+- [ ] They are stateless and allow all inbound traffic by default.
+
+25. Which component is used to connect a VPC to the internet?
+
+- [ ] Public subnet
+- [ ] Edge location
+- [ ] Security group
+- [x] Internet gateway
+
+26. Which service is used to manage the DNS records for domain names?
+
+- [ ] Amazon Virtual Private Cloud
+- [ ] AWS Direct Connect
+- [ ] Amazon CloudFront
+- [x] Amazon Route 53
+
+#### Module 5: Storage and databases
+
+27. Which of the following are characteristics of the Amazon EBS service? (Select TWO.)
+
+- [x] Best for data that requires retention
+- [ ] Best for temporary data that is not kept long term
+- [x] Separate drives from the host computer of an EC2 instance
+- [ ] Physically attached to the host computer of an EC2 instance
+- [ ] Data is deleted when an EC2 instance is stopped
+
+28. You want to store data that is infrequently accessed but must be immediately available when needed. Which Amazon S3 storage class should you use?
+
+- [ ] S3 Intelligent-Tiering
+- [ ] S3 Glacier Deep Archive
+- [x] S3 Standard-IA
+- [ ] S3 Glacier Flexible Retrieval
+
+29. What are the scenarios in which you should use Amazon Relational Database Service (Amazon RDS)? (Select TWO.)
+
+- [ ] Running a serverless database
+- [x] Using SQL to organize data
+- [ ] Storing data in a key-value database
+- [ ] Scaling up to 10 trillion requests per day
+- [x] Storing data in an Amazon Aurora database
+
+30.
+
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
 - [ ]
 - [ ]
 - [ ]
