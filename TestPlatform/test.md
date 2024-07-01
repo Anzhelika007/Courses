@@ -312,8 +312,101 @@ Module 1: Introduction to Amazon Web Services.
 - [x] Create cryptographic keys.
 - [ ] Assign permissions to users and groups.
 
-43.
+#### Module 7: Monitoring and analytics
 
+43. Which tasks can you perform using AWS CloudTrail? (Select TWO.)
+
+- [ ] Monitor your AWS infrastructure and resources in real time
+- [x] Track user activities and API requests throughout your AWS infrastructure
+- [ ] View metrics and graphs to monitor the performance of resources
+- [x] Filter logs to assist with operational analysis and troubleshooting
+- [ ] Configure automatic actions and alerts in response to metrics
+
+44. Which actions can you perform using Amazon CloudWatch? (Select TWO.)
+
+- [x] Monitor your resources’ utilization and performance
+- [ ] Receive real-time guidance for improving your AWS environment
+- [ ] Compare your infrastructure to AWS best practices in five categories
+- [x] Access metrics from a single dashboard
+- [ ] Automatically detect unusual account activity
+
+45. Which service enables you to review the security of your Amazon S3 buckets by checking for open access permissions?
+
+- [ ] Amazon CloudWatch
+- [ ] AWS CloudTrail
+- [x] AWS Trusted Advisor
+- [ ] Amazon GuardDuty
+
+46. Which categories are included in the AWS Trusted Advisor dashboard? (Select TWO.)
+
+- [ ] Reliability
+- [x] Performance
+- [ ] Scalability
+- [ ] Elasticity
+- [x] Fault tolerance
+
+#### Module 8: Pricing and support
+
+47. The AWS Free Tier includes offers that are available to new AWS customers for a certain period of time following their AWS sign-up date. What is the duration of this period?
+
+- [ ] 3 months
+- [ ] 6 months
+- [ ] 9 months
+- [x] 12 months
+
+48. Which Support plan includes all AWS Trusted Advisor checks at the lowest cost?
+
+- [ ] Basic
+- [ ] Developer
+- [x] Business
+- [ ] Enterprise
+
+49. Which action can you perform with consolidated billing?
+
+- [ ] Review how much cost your predicted AWS usage will incur by the end of the month.
+- [ ] Create an estimate for the cost of your use cases on AWS.
+- [x] Combine usage across accounts to receive volume pricing discounts.
+- [ ] Visualize and manage your AWS costs and usage over time.
+
+50. Which pricing tool is used to visualize, understand, and manage your AWS costs and usage over time?
+
+- [ ] AWS Pricing Calculator
+- [ ] AWS Budgets
+- [x] AWS Cost Explorer
+- [ ] AWS Free Tier
+
+51. Which pricing tool enables you to receive alerts when your service usage exceeds a threshold that you have defined?
+
+- [ ] Billing dashboard in the AWS Management Console
+- [x] AWS Budgets
+- [ ] AWS Free Tier
+- [ ] AWS Cost Explorer
+
+52. Your company wants to receive support from an AWS Technical Account Manager (TAM). Which support plan should you choose?
+
+- [ ] Developer
+- [x] Enterprise
+- [ ] Basic
+- [ ] Business
+
+52. Which service or resource is used to find third-party software that runs on AWS?
+
+- [x] AWS Marketplace
+- [ ] AWS Free Tier
+- [ ] AWS Support
+- [ ] Billing dashboard in the AWS Management Console
+
+#### Module 9: Migration and innovation
+
+53.
+
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
 - [ ]
 - [ ]
 - [ ]
