@@ -457,28 +457,108 @@ Module 1: Introduction to Amazon Web Services.
 
 #### Module 10: The cloud journey
 
-61.
+61. Which pillar of the AWS Well-Architected Framework focuses on the ability of a workload to consistently and correctly perform its intended functions?
 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [ ] Operational Excellence
+- [ ] Performance Efficiency
+- [ ] Security
+- [x] Reliability
+
+62. Which process is an example of benefiting from massive economies of scale?
+
+- [ ] Deploying an application in multiple Regions around the world
+- [x] Receiving lower pay-as-you-go prices as the result of AWS customers’ aggregated usage of services
+- [ ] Paying for compute time as you use it instead of investing upfront costs in data centers
+- [ ] Scaling your infrastructure capacity in and out to meet demand
+
+63. Which pillar of the AWS Well-Architected Framework includes the ability to run workloads effectively and gain insights into their operations?
+
+- [ ] Cost Optimization
+- [x] Operational Excellence
+- [ ] Performance Efficiency
+- [ ] Reliability
+
+64. What are the benefits of cloud computing? (Select TWO.)
+
+- [x] Increase speed and agility.
+- [ ] Benefit from smaller economies of scale.
+- [ ] Trade variable expense for upfront expense.
+- [ ] Maintain infrastructure capacity.
+- [x] Stop spending money running and maintaining data centers.
+
+#### Module 11: Sample Exam Questions
+
+65. Why is AWS more economical than traditional data centers for applications with varying compute
+    workloads?
+
+- [ ] Amazon EC2 costs are billed on a monthly basis
+- [ ] Users retain full administrative access to their Amazon EC2 instances.
+- [ ] Amazon EC2 instances can be launched on demand when needed.
+- [ ] Users can permanently run enough instances to handle peak workloads
+
+66. Which AWS service would simplify the migration of a database to AWS?
+
+- [ ] AWS Storage Gateway
+- [ ] AWS Database Migration Service (AWS DMS)
+- [ ] Amazon EC2
+- [ ] Amazon AppStream 2.0
+
+67. Which AWS offering enables users to find, buy, and immediately start using software solutions in their
+    AWS environment
+
+- [ ] AWS Config
+- [ ] AWS OpsWorks
+- [ ] AWS SDK
+- [ ] AWS Marketplace
+
+68. Which AWS networking service enables a company to create a virtual network within AWS?
+
+- [ ] AWS Config
+- [ ] Amazon Route 53
+- [ ] AWS Direct Connect
+- [ ] Amazon Virtual Private Cloud (Amazon VPC)
+
+69. Which of the following is an AWS responsibility under the AWS shared responsibility model?
+
+- [ ] Configuring third-party applications
+- [ ] Maintaining physical hardware
+- [ ] Securing application access and data
+- [ ] Managing guest operating systems
+
+70. Which component of the AWS global infrastructure does Amazon CloudFront use to ensure low-latency
+    delivery?
+
+- [ ] AWS Regions
+- [ ] Edge locations
+- [ ] Availability Zones
+- [ ] Virtual Private Cloud (VPC)
+
+71. How would a system administrator add an additional layer of login security to a user's AWS
+    Management Console?
+
+- [ ] Use Amazon Cloud Directory
+- [ ] Audit AWS Identity and Access Management (IAM) roles
+- [ ] Enable multi-factor authentication
+- [ ] Enable AWS CloudTrail
+
+72. Which service can identify the user that made the API call when an Amazon EC2 instance is
+    terminated?
+
+- [ ] AWS Trusted Advisor
+- [ ] AWS CloudTrail
+- [ ] AWS X-Ray
+- [ ] AWS Identity and Access Management (AWS IAM)
+
+73. Which service would be used to send alerts based on Amazon CloudWatch alarms?
+
+- [ ] Amazon Simple Notification Service (Amazon SNS)
+- [ ] AWS CloudTrail
+- [ ] AWS Trusted Advisor
+- [ ] Amazon Route 53
+
+74. Where can a user find information about prohibited actions on the AWS infrastructure?
+
+- [ ] AWS Trusted Advisor
+- [ ] AWS Identity and Access Management (IAM)
+- [ ] AWS Billing Console
+- [ ] AWS Acceptable Use Policy
