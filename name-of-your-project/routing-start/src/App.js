@@ -1,27 +1,24 @@
-import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
+import { createBrowserRouter, Routes, Route, Link, NavLink, RouterProvider, createRoutesFromChildren, createRoutesFromElements } from "react-router-dom";
+// layout
+import RootLayout from "./layouts/RootLayout";
 
+// pages
 import About from "./pages/About";
 import Home from "./pages/Home";
 
-function App() {
-  return (
-    <BrowserRouter>
-    <header>
-      {/* btn menu */}
-      <nav>
-        <h1>Bar routing = bread crumbs</h1>
-        <NavLink to='/'>Home</NavLink>
-        <NavLink to='about'>About</NavLink>
-      </nav>
-    </header>
-    <main>
-      <Routes>
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path='/' element={<RootLayout />}>
         {/* path='/' the same index */}
         <Route index element={<Home />} />
         <Route path='/about' element={<About />} />
-      </Routes>
-    </main>
-    </BrowserRouter>
+    </Route>
+  )
+)
+
+function App() {
+  return (
+    <RouterProvider router={ router } />
   );
 }
 
