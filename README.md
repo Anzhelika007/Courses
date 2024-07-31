@@ -1,3 +1,0 @@
-# Courses
-
-React Petrichenko => Udemy
