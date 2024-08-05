@@ -1,4 +1,4 @@
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import Categories from "./Categories";
 import Category from "./Category";
@@ -21,8 +21,9 @@ function App() {
         <Route path="/" element={<Home title="Welcome to Red30 Tech"/>} />
         <Route path="about" element={<About />} />
         <Route path="categories" element={<Categories />}>
-          <Route path="category" element={<Category />} />
+          <Route path=":id" element={<Category />} />
         </Route>
+        <Route path="*" element={<h1 className="not-found">Page not found</h1>} />
       </Routes>
 
       <footer className="container">
