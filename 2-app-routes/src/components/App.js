@@ -22,6 +22,8 @@ function App() {
           </Route>
           <Route index element={<h3>Select a category from above</h3>}/>
         </Route>
+        <Route path="register" element={<Register />} />
+        <Route path="confirmed" element={<Confirmation />} />
         <Route path="*" element={<h1 className="not-found">Page not found</h1>} />
       </Routes>
 
