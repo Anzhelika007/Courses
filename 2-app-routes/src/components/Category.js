@@ -10,7 +10,7 @@ export default function Category() {
       <h2>{category.name} Sessions</h2>
       <ul className="session-list">
         {category?.sessions.map(session => (
-          <li className="session">
+          <li className="session" key={session.id}>
             <NavLink to={session.id} className={({ isActive}) => isActive ? "session-active" : null}>
               <p className="session-name">{session.name}</p>
               <p>{session.speaker.name} | {session.speaker.org}</p>

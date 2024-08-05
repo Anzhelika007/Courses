@@ -20,6 +20,7 @@ function App() {
           <Route path=":catId" element={<Category />}>
             <Route path=":sessionId" element={<Session />} />
           </Route>
+          <Route index element={<h3>Select a category from above</h3>}/>
         </Route>
         <Route path="*" element={<h1 className="not-found">Page not found</h1>} />
       </Routes>
