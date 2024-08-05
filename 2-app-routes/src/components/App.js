@@ -8,10 +8,6 @@ import Header from "./Header";
 import Register from "./Register";
 import Session from "./Session";
 
-
-
-import logo from "../assets/red30-tech-logo.png";
-
 function App() {
   return (
     <div className="app">
@@ -21,7 +17,9 @@ function App() {
         <Route path="/" element={<Home title="Welcome to Red30 Tech"/>} />
         <Route path="about" element={<About />} />
         <Route path="categories" element={<Categories />}>
-          <Route path=":id" element={<Category />} />
+          <Route path=":catId" element={<Category />}>
+            <Route path=":sessionId" element={<Session />} />
+          </Route>
         </Route>
         <Route path="*" element={<h1 className="not-found">Page not found</h1>} />
       </Routes>
