@@ -2,7 +2,6 @@ import { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: {
-    absolute: "",
     default: "Next.Js Tutorial - Code evolution",
     template: "%s | code evolution",
   },
